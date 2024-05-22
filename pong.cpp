@@ -80,7 +80,7 @@ class test
 						int y=i+getvy(i);
 						int x=j+getvx(j, y);
 						tab[y][x]=254;						
-						if(x==0||x==90)//0, w tym wypadku, bedzie rowne 1
+						if(x==0||x==90)
 						{
 							if(x==0)wynik[0]++;
 							else wynik[1]++;
